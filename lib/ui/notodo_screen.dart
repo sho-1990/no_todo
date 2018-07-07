@@ -70,6 +70,7 @@ class _NoToDoScreenState extends State<NoToDoScreen> {
   }
 
   void _showFormDialog() {
+    _textEditingController.clear();
     var alert = AlertDialog(
       content: Row(
         children: <Widget>[
